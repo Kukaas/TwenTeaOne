@@ -79,6 +79,9 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+    .navbar-brand img{
+        width: 40%;
+    }
 }
 
 
@@ -124,6 +127,19 @@
     }
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
+    }
+    .navbar-brand img{
+        width: 30%;
+    }
+    .banner_taital{
+        font-size: 50px;
+    }
+    .tasty_text{
+        font-size: 20px;
+    }
+    .banner_text{
+        font-size: 14px;
+        color: #252525;
     }
 }
 
@@ -192,8 +208,8 @@
     }
     .navbar-light .navbar-toggler {
         color: #fff;
-        border-color: #fb795f;
-        background: #fb795f;
+        border-color: #000;
+        background: #fff;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
@@ -273,6 +289,12 @@
         text-align: center;
         padding-top: 15px;
     }
+    .banner_taital{
+        font-size: 60px;
+    }
+    .banner_text{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -314,6 +336,7 @@
     }
     .banner_taital_main {
         padding-top: 0px;
+        padding-left: 0;
     }
     .tasty_text {
         color: #ffffff;
@@ -363,7 +386,7 @@
         background-size: cover;
     }
     .client_left {
-        width: 100%;
+        width: 30%;
         padding-left: 0px;
     }
     .client_right {
@@ -403,6 +426,12 @@
     }
     .footer_social_icon {
         text-align: center;
+    }
+    .banner_taital{
+        font-size: 60px;
+    }
+    .banner_text{
+        font-size: 18px;
     }
 }
 
@@ -494,8 +523,8 @@
         background-size: cover;
     }
     .client_left {
-        width: 100%;
-        padding-left: 0px;
+        width: 20%;
+        padding-left: 10px;
     }
     .client_right {
         width: 100%;
@@ -534,5 +563,8 @@
     }
     .footer_social_icon {
         text-align: center;
+    }
+    .banner_taital_main{
+        padding-left: 20px;
     }
 }
