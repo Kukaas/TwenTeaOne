@@ -184,6 +184,10 @@ header{
 .price{
     font-weight: 400;
 }
+.size{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
 .add-cart{
     position: absolute;
     bottom: 0;

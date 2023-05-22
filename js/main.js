@@ -73,17 +73,18 @@ function addCartClicked(event) {
     var shopProducts = button.parentElement;
     var title = shopProducts.getElementsByClassName("product-title")[0].innerText;
     var price = shopProducts.getElementsByClassName("price")[0].innerText;
+    var size = shopProducts.getElementsByClassName("size")[0].innerText;
     var productImg = shopProducts.getElementsByClassName("product-img")[0].src;
-    addProductToCart(title, price, productImg);
+    addProductToCart(title, size, price, productImg);
     updatetotal();
 }
-function addProductToCart(title, price, productImg) {
+function addProductToCart(title, size, price, productImg) {
     var cartShopBox = document.createElement("div");
     cartShopBox.classList.add("cart-box");
     var cartItems = document.getElementsByClassName("cart-content")[0];
-    var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
+    var cartItemsNames = cartItems.getElementsByClassName("product-size");
     for (var i = 0; i < cartItemsNames.length; i++) {
-        if (cartItemsNames[i].innerText == title) {
+        if (cartItemsNames[i].innerText == size) {
             alert("You have already added this item in your cart");
             return;
         }
@@ -93,6 +94,8 @@ function addProductToCart(title, price, productImg) {
                             <img src="${productImg}" alt="" class="cart-img">
                             <div class="detail-box">
                                 <div class="cart-product-title">${title}
+                                </div>
+                                <div class="product-size">${size}
                                 </div>
                                 <div class="cart-price">${price}</div>
                                 <input type="number" value="1" class="cart-quantity">

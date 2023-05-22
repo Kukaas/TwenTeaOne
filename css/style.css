@@ -441,7 +441,7 @@ button {
 /* banner section end */
 
 
-/* coffee section start */
+/* tea section start */
 
 .coffee_section {
     width: 100%;
@@ -464,6 +464,7 @@ button {
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .bulit_icon {
