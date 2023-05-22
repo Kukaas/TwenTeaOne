@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- font css -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <title>Shop</title>
+    <!--Box Icons css-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header section start -->
+    <div class="header_section header_bg">
+        <div class="container-fluid">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                       <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                       <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="login.html" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i><span>Login</span></a>
+                    </li>
+                 </ul>
+              </div>
+           </nav>
+        </div>
+     </div>
+     <!-- header section end -->
+
+     <!-- nav bar start -->
+     <header>
+        <div class="nav container">
+            <a href="" class="logo">Products</a>
+            <!-- cart icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content-->
+                <div class="cart-content">
+                    <!--<div class="cart-box">
+                        <img src="images/caramelMT.png" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Caramel Milktea
+                            </div>
+                            <div class="cart-price">Php 49.00</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                    </div>-->
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total:</div>
+                    <div class="total-price"> Php 0.00</div>
+                </div>
+                <!-- Buy button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- Cart Close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- nav bar end -->
+
+    <!-- shop start -->
+    <section class="shop container">
+        <h2 class="section-title">Small</h2>
+        <div class="shop-content">
+            <!-- Box 1-->
+            <div class="product-box">
+                <img src="images/caramelMT.png" alt="" class="product-img">
+                <h2 class="product-title">Caramel Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 2-->
+            <div class="product-box">
+                <img src="images/taroMT.png" alt="" class="product-img">
+                <h2 class="product-title">Taro Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 3-->
+            <div class="product-box">
+                <img src="images/matchaMT.png" alt="" class="product-img">
+                <h2 class="product-title">Matcha Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 4-->
+            <div class="product-box">
+                <img src="images/strawberryMT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 5-->
+            <div class="product-box">
+                <img src="images/avocadoST.png" alt="" class="product-img">
+                <h2 class="product-title">Avocado Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 6 -->
+            <div class="product-box">
+                <img src="images/strawberryST.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 7 -->
+            <div class="product-box">
+                <img src="images/oreoST.png" alt="" class="product-img">
+                <h2 class="product-title">Oreo Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 8-->
+            <div class="product-box">
+                <img src="images/mangoST.png" alt="" class="product-img">
+                <h2 class="product-title">Mango Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 9-->
+            <div class="product-box">
+                <img src="images/greenappleFT.png" alt="" class="product-img">
+                <h2 class="product-title">Green Apple Fruittea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 10 -->
+            <div class="product-box">
+                <img src="images/strawberryFT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry FruitTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 11 -->
+            <div class="product-box">
+                <img src="images/passionfruitGT.png" alt="" class="product-img">
+                <h2 class="product-title">Passion Fruit GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 12-->
+            <div class="product-box">
+                <img src="images/milkGT.png" alt="" class="product-img">
+                <h2 class="product-title">Milk GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop start -->
+    <section class="shop container">
+        <h2 class="section-title">Medium</h2>
+        <div class="shop-content">
+            <!-- Box 1-->
+            <div class="product-box">
+                <img src="images/caramelMT.png" alt="" class="product-img">
+                <h2 class="product-title">Caramel Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 2-->
+            <div class="product-box">
+                <img src="images/taroMT.png" alt="" class="product-img">
+                <h2 class="product-title">Taro Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 3-->
+            <div class="product-box">
+                <img src="images/matchaMT.png" alt="" class="product-img">
+                <h2 class="product-title">Matcha Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 4-->
+            <div class="product-box">
+                <img src="images/strawberryMT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 5-->
+            <div class="product-box">
+                <img src="images/avocadoST.png" alt="" class="product-img">
+                <h2 class="product-title">Avocado Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 6 -->
+            <div class="product-box">
+                <img src="images/strawberryST.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 7 -->
+            <div class="product-box">
+                <img src="images/oreoST.png" alt="" class="product-img">
+                <h2 class="product-title">Oreo Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 8-->
+            <div class="product-box">
+                <img src="images/mangoST.png" alt="" class="product-img">
+                <h2 class="product-title">Mango Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 9-->
+            <div class="product-box">
+                <img src="images/greenappleFT.png" alt="" class="product-img">
+                <h2 class="product-title">Green Apple Fruittea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 10 -->
+            <div class="product-box">
+                <img src="images/strawberryFT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry FruitTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 11 -->
+            <div class="product-box">
+                <img src="images/passionfruitGT.png" alt="" class="product-img">
+                <h2 class="product-title">Passion Fruit GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 12-->
+            <div class="product-box">
+                <img src="images/milkGT.png" alt="" class="product-img">
+                <h2 class="product-title">Milk GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section>
+    <!-- shop end -->
+
+    <!-- shop start -->
+    <section class="shop container">
+        <h2 class="section-title">Medium</h2>
+        <div class="shop-content">
+            <!-- Box 1-->
+            <div class="product-box">
+                <img src="images/caramelMT.png" alt="" class="product-img">
+                <h2 class="product-title">Caramel Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 2-->
+            <div class="product-box">
+                <img src="images/taroMT.png" alt="" class="product-img">
+                <h2 class="product-title">Taro Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 3-->
+            <div class="product-box">
+                <img src="images/matchaMT.png" alt="" class="product-img">
+                <h2 class="product-title">Matcha Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 4-->
+            <div class="product-box">
+                <img src="images/strawberryMT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Milktea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 5-->
+            <div class="product-box">
+                <img src="images/avocadoST.png" alt="" class="product-img">
+                <h2 class="product-title">Avocado Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 6 -->
+            <div class="product-box">
+                <img src="images/strawberryST.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 7 -->
+            <div class="product-box">
+                <img src="images/oreoST.png" alt="" class="product-img">
+                <h2 class="product-title">Oreo Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 8-->
+            <div class="product-box">
+                <img src="images/mangoST.png" alt="" class="product-img">
+                <h2 class="product-title">Mango Smoothie</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 9-->
+            <div class="product-box">
+                <img src="images/greenappleFT.png" alt="" class="product-img">
+                <h2 class="product-title">Green Apple Fruittea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 10 -->
+            <div class="product-box">
+                <img src="images/strawberryFT.png" alt="" class="product-img">
+                <h2 class="product-title">Strawberry FruitTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 11 -->
+            <div class="product-box">
+                <img src="images/passionfruitGT.png" alt="" class="product-img">
+                <h2 class="product-title">Passion Fruit GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- Box 12-->
+            <div class="product-box">
+                <img src="images/milkGT.png" alt="" class="product-img">
+                <h2 class="product-title">Milk GreenTea</h2>
+                <span class="price">Php 49.00</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section>
+    <!-- shop end -->
+
+    <!-- Link js-->
+    <script src="js/main.js"></script>
+</body>
+</html>
